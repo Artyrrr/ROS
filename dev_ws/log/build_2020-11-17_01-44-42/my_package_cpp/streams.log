@@ -1,0 +1,41 @@
+[0.437s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install
+[2.312s] -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+[2.312s] -- Found ament_cmake: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[2.312s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[2.312s] -- Found ament_lint_auto: 0.9.5 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[2.312s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.312s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.312s] -- Configured cppcheck include dirs: 
+[2.312s] -- Configured cppcheck exclude dirs and/or files: 
+[2.312s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.312s] -- Configured cpplint exclude dirs and/or files: 
+[2.312s] -- Added test 'lint_cmake' to check CMake code style
+[2.312s] -- Added test 'uncrustify' to check C / C++ code style
+[2.312s] -- Configured uncrustify additional arguments: 
+[2.312s] -- Added test 'xmllint' to check XML markup files
+[2.312s] -- Configuring done
+[2.312s] -- Generating done
+[2.312s] -- Build files have been written to: H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_cpp
+[2.312s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install
+[2.312s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp --config Release
+[3.328s] Microsoft (R) Build Engine версии 16.7.0+b89cb5fde для .NET Framework
+[3.328s] (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+[3.328s] 
+[3.328s]   my_node.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp\Release\my_node.exe
+[3.391s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp' returned '0': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp --config Release
+[3.609s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp --config Release
+[3.812s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/lib/my_package_cpp/my_node.exe
+[3.812s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/ament_index/resource_index/package_run_dependencies/my_package_cpp
+[3.812s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/ament_index/resource_index/parent_prefix_path/my_package_cpp
+[3.812s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/environment/ament_prefix_path.bat
+[3.812s] -- Installing: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/environment/ament_prefix_path.dsv
+[3.812s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/environment/path.bat
+[3.828s] -- Installing: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/environment/path.dsv
+[3.828s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/local_setup.bat
+[3.828s] -- Installing: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/local_setup.dsv
+[3.828s] -- Installing: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/package.dsv
+[3.828s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/ament_index/resource_index/packages/my_package_cpp
+[3.828s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/cmake/my_package_cppConfig.cmake
+[3.844s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/cmake/my_package_cppConfig-version.cmake
+[3.844s] -- Up-to-date: H:/MyProgram/C and C++/ROS/dev_ws/install/share/my_package_cpp/package.xml
+[3.859s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp --config Release

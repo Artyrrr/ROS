@@ -1,0 +1,39 @@
+[3.000s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log --single-version-externally-managed
+[3.875s] running egg_info
+[3.907s] creating H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info
+[3.907s] writing H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info\PKG-INFO
+[3.907s] writing dependency_links to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info\dependency_links.txt
+[3.907s] writing entry points to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info\entry_points.txt
+[3.907s] writing requirements to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info\requires.txt
+[3.907s] writing top-level names to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info\top_level.txt
+[3.922s] writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info\SOURCES.txt'
+[3.922s] reading manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info\SOURCES.txt'
+[3.938s] writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info\SOURCES.txt'
+[3.938s] running build
+[3.938s] running build_py
+[3.938s] creating H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build
+[3.938s] creating H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib
+[3.938s] creating H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_python
+[3.938s] copying my_package_python\my_node.py -> H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_python
+[3.954s] copying my_package_python\__init__.py -> H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_python
+[3.954s] running install
+[3.954s] running install_lib
+[3.954s] creating H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\my_package_python
+[3.954s] copying H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_python\my_node.py -> H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\my_package_python
+[3.954s] copying H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_python\__init__.py -> H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\my_package_python
+[4.000s] writing byte-compilation script 'C:\Users\artyr\AppData\Local\Temp\tmp9_22sa9q.py'
+[4.000s] c:\opt\ros\foxy\x64\python.exe C:\Users\artyr\AppData\Local\Temp\tmp9_22sa9q.py
+[4.110s] removing C:\Users\artyr\AppData\Local\Temp\tmp9_22sa9q.py
+[4.110s] running install_data
+[4.110s] creating H:\MyProgram\C and C++\ROS\dev_ws\install\share\ament_index
+[4.110s] creating H:\MyProgram\C and C++\ROS\dev_ws\install\share\ament_index\resource_index
+[4.110s] creating H:\MyProgram\C and C++\ROS\dev_ws\install\share\ament_index\resource_index\packages
+[4.110s] copying resource\my_package_python -> H:\MyProgram\C and C++\ROS\dev_ws\install\share\ament_index\resource_index\packages
+[4.110s] copying package.xml -> H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python
+[4.125s] running install_egg_info
+[4.125s] Copying H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_python.egg-info to H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\my_package_python-0.0.0-py3.8.egg-info
+[4.141s] running install_scripts
+[4.172s] Installing my_node-script.py script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\my_package_python
+[4.172s] Installing my_node.exe script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\my_package_python
+[4.172s] writing list of installed files to 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log'
+[4.313s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py' returned '0': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log --single-version-externally-managed

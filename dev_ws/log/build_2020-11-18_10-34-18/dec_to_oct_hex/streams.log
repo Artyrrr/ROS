@@ -1,0 +1,27 @@
+[4.797s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\university_tasks\task_1\dec_to_oct_hex': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\install.log --single-version-externally-managed
+[5.609s] running egg_info
+[5.609s] writing H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\dec_to_oct_hex.egg-info\PKG-INFO
+[5.609s] writing dependency_links to H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\dec_to_oct_hex.egg-info\dependency_links.txt
+[5.609s] writing entry points to H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\dec_to_oct_hex.egg-info\entry_points.txt
+[5.609s] writing requirements to H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\dec_to_oct_hex.egg-info\requires.txt
+[5.609s] writing top-level names to H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\dec_to_oct_hex.egg-info\top_level.txt
+[5.656s] reading manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\dec_to_oct_hex.egg-info\SOURCES.txt'
+[5.656s] writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\dec_to_oct_hex.egg-info\SOURCES.txt'
+[5.656s] running build
+[5.656s] running build_py
+[5.656s] running install
+[5.656s] running install_lib
+[5.672s] writing byte-compilation script 'C:\Users\artyr\AppData\Local\Temp\tmp_tqkvxu8.py'
+[5.672s] c:\opt\ros\foxy\x64\python.exe C:\Users\artyr\AppData\Local\Temp\tmp_tqkvxu8.py
+[5.781s] removing C:\Users\artyr\AppData\Local\Temp\tmp_tqkvxu8.py
+[5.781s] running install_data
+[5.781s] running install_egg_info
+[5.797s] removing 'H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\dec_to_oct_hex-0.0.0-py3.8.egg-info' (and everything under it)
+[5.797s] Copying H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\dec_to_oct_hex.egg-info to H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\dec_to_oct_hex-0.0.0-py3.8.egg-info
+[5.812s] running install_scripts
+[5.843s] Installing listener-script.py script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\dec_to_oct_hex
+[5.843s] Installing listener.exe script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\dec_to_oct_hex
+[5.843s] Installing talker-script.py script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\dec_to_oct_hex
+[5.843s] Installing talker.exe script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\dec_to_oct_hex
+[5.843s] writing list of installed files to 'H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\install.log'
+[5.875s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\university_tasks\task_1\dec_to_oct_hex' returned '0': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\dec_to_oct_hex\install.log --single-version-externally-managed

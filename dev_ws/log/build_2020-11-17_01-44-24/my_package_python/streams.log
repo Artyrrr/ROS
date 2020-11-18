@@ -1,0 +1,25 @@
+[2.984s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log --single-version-externally-managed
+[3.812s] running egg_info
+[3.812s] writing H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\PKG-INFO
+[3.812s] writing dependency_links to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\dependency_links.txt
+[3.828s] writing entry points to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\entry_points.txt
+[3.828s] writing requirements to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\requires.txt
+[3.828s] writing top-level names to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\top_level.txt
+[3.859s] reading manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\SOURCES.txt'
+[3.859s] writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\SOURCES.txt'
+[3.859s] running build
+[3.859s] running build_py
+[3.859s] creating H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_py
+[3.859s] copying my_package_py\my_node.py -> H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_py
+[3.859s] copying my_package_py\__init__.py -> H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_py
+[3.859s] running install
+[3.875s] running install_lib
+[3.875s] creating H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\my_package_py
+[3.875s] copying H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_py\my_node.py -> H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\my_package_py
+[3.875s] copying H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build\lib\my_package_py\__init__.py -> H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\my_package_py
+[3.875s] writing byte-compilation script 'C:\Users\artyr\AppData\Local\Temp\tmp7mg6dlzf.py'
+[3.875s] c:\opt\ros\foxy\x64\python.exe C:\Users\artyr\AppData\Local\Temp\tmp7mg6dlzf.py
+[3.984s] removing C:\Users\artyr\AppData\Local\Temp\tmp7mg6dlzf.py
+[3.984s] running install_data
+[3.984s] error: can't copy 'resource\my_package_py': doesn't exist or not a regular file
+[4.015s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py' returned '1': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log --single-version-externally-managed

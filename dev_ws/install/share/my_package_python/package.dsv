@@ -1,0 +1,9 @@
+source;share\my_package_python\hook\cmake_prefix_path.ps1
+source;share\my_package_python\hook\cmake_prefix_path.bat
+source;share\my_package_python\hook\cmake_prefix_path.dsv
+source;share\my_package_python\hook\pythonpath.ps1
+source;share\my_package_python\hook\pythonpath.bat
+source;share\my_package_python\hook\pythonpath.dsv
+source;share\my_package_python\hook\ament_prefix_path.ps1
+source;share\my_package_python\hook\ament_prefix_path.bat
+source;share\my_package_python\hook\ament_prefix_path.dsv

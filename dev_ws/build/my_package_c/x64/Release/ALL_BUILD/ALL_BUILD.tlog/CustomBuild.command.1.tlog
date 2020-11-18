@@ -1,0 +1,10 @@
+^H:\MYPROGRAM\C AND C++\ROS\DEV_WS\SRC\ROS_TUTORIALS\CREATING YOUR FIRST ROS 2 PACKAGE\C++\MY_PACKAGE_CPP\CMAKELISTS.TXT
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe "-SH:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating your first ROS 2 package/C++/my_package_cpp" "-BH:/MyProgram/C and C++/ROS/dev_ws/build/my_package_c" --check-stamp-file "H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_c/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

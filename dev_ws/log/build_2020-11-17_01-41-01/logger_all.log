@@ -1,0 +1,354 @@
+[1.111s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\opt\\ros\\foxy\\x64\\Scripts\\colcon', 'build', '--merge-install'][0m
+[1.111s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x000001F2A7FB3CA0>>, merge_install=True, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x000001F2A7FB3CA0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x000001F2A7FBF1C0>)[0m
+[1.183s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.183s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.183s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.183s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.183s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.183s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.184s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'H:\MyProgram\C and C++\ROS\dev_ws'
+[1.184s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.184s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.184s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.185s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.185s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.185s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.185s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.186s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.186s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.207s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[1.207s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.208s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.208s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.208s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.209s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.210s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.211s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[1.212s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[1.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[1.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[1.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[1.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[1.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[1.213s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[1.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[1.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[1.214s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[1.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[1.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[1.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.215s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extension 'ignore'
+[1.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extension 'ignore_ament_install'
+[1.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extensions ['colcon_pkg']
+[1.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extension 'colcon_pkg'
+[1.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extensions ['colcon_meta']
+[1.216s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extension 'colcon_meta'
+[1.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extensions ['ros']
+[1.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extension 'ros'
+[1.217s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extensions ['cmake', 'python']
+[1.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extension 'cmake'
+[1.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extension 'python'
+[1.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extensions ['python_setup_py']
+[1.218s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials) by extension 'python_setup_py'
+[1.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extensions ['ignore', 'ignore_ament_install']
+[1.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extension 'ignore'
+[1.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extension 'ignore_ament_install'
+[1.219s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extensions ['colcon_pkg']
+[1.220s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extension 'colcon_pkg'
+[1.220s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extensions ['colcon_meta']
+[1.220s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extension 'colcon_meta'
+[1.220s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extensions ['ros']
+[1.220s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extension 'ros'
+[1.221s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extensions ['cmake', 'python']
+[1.221s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extension 'cmake'
+[1.221s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extension 'python'
+[1.221s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extensions ['python_setup_py']
+[1.222s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package) by extension 'python_setup_py'
+[1.222s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extensions ['ignore', 'ignore_ament_install']
+[1.222s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extension 'ignore'
+[1.223s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extension 'ignore_ament_install'
+[1.223s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extensions ['colcon_pkg']
+[1.223s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extension 'colcon_pkg'
+[1.223s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extensions ['colcon_meta']
+[1.223s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extension 'colcon_meta'
+[1.224s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extensions ['ros']
+[1.224s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extension 'ros'
+[1.225s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extensions ['cmake', 'python']
+[1.225s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extension 'cmake'
+[1.225s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extension 'python'
+[1.225s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extensions ['python_setup_py']
+[1.225s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++) by extension 'python_setup_py'
+[1.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extension 'ignore'
+[1.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extension 'ignore_ament_install'
+[1.226s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extensions ['colcon_pkg']
+[1.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extension 'colcon_pkg'
+[1.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extensions ['colcon_meta']
+[1.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extension 'colcon_meta'
+[1.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extensions ['ros']
+[1.227s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp) by extension 'ros'
+[1.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp' with type 'ros.ament_cmake' and name 'my_package_cpp'[0m
+[1.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extensions ['ignore', 'ignore_ament_install']
+[1.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extension 'ignore'
+[1.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extension 'ignore_ament_install'
+[1.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extensions ['colcon_pkg']
+[1.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extension 'colcon_pkg'
+[1.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extensions ['colcon_meta']
+[1.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extension 'colcon_meta'
+[1.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extensions ['ros']
+[1.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extension 'ros'
+[1.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extensions ['cmake', 'python']
+[1.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extension 'cmake'
+[1.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extension 'python'
+[1.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extensions ['python_setup_py']
+[1.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python) by extension 'python_setup_py'
+[1.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extensions ['ignore', 'ignore_ament_install']
+[1.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extension 'ignore'
+[1.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extension 'ignore_ament_install'
+[1.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extensions ['colcon_pkg']
+[1.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extension 'colcon_pkg'
+[1.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extensions ['colcon_meta']
+[1.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extension 'colcon_meta'
+[1.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extensions ['ros']
+[1.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py) by extension 'ros'
+[1.241s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py' with type 'ros.ament_python' and name 'my_package_python'[0m
+[1.241s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extensions ['ignore', 'ignore_ament_install']
+[1.241s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extension 'ignore'
+[1.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extension 'ignore_ament_install'
+[1.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extensions ['colcon_pkg']
+[1.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extension 'colcon_pkg'
+[1.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extensions ['colcon_meta']
+[1.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extension 'colcon_meta'
+[1.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extensions ['ros']
+[1.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extension 'ros'
+[1.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extensions ['cmake', 'python']
+[1.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extension 'cmake'
+[1.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extension 'python'
+[1.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extensions ['python_setup_py']
+[1.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (C++)) by extension 'python_setup_py'
+[1.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extensions ['ignore', 'ignore_ament_install']
+[1.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extension 'ignore'
+[1.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extension 'ignore_ament_install'
+[1.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extensions ['colcon_pkg']
+[1.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extension 'colcon_pkg'
+[1.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extensions ['colcon_meta']
+[1.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extension 'colcon_meta'
+[1.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extensions ['ros']
+[1.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extension 'ros'
+[1.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extensions ['cmake', 'python']
+[1.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extension 'cmake'
+[1.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extension 'python'
+[1.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extensions ['python_setup_py']
+[1.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)) by extension 'python_setup_py'
+[1.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extension 'ignore'
+[1.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extension 'ignore_ament_install'
+[1.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extensions ['colcon_pkg']
+[1.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extension 'colcon_pkg'
+[1.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extensions ['colcon_meta']
+[1.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extension 'colcon_meta'
+[1.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extensions ['ros']
+[1.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub) by extension 'ros'
+[1.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'[0m
+[1.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extensions ['ignore', 'ignore_ament_install']
+[1.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extension 'ignore'
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extension 'ignore_ament_install'
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extensions ['colcon_pkg']
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extension 'colcon_pkg'
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extensions ['colcon_meta']
+[1.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extension 'colcon_meta'
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extensions ['ros']
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extension 'ros'
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extensions ['cmake', 'python']
+[1.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extension 'cmake'
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extension 'python'
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extensions ['python_setup_py']
+[1.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (C++)) by extension 'python_setup_py'
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extensions ['ignore', 'ignore_ament_install']
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extension 'ignore'
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extension 'ignore_ament_install'
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extensions ['colcon_pkg']
+[1.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extension 'colcon_pkg'
+[1.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extensions ['colcon_meta']
+[1.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extension 'colcon_meta'
+[1.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extensions ['ros']
+[1.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extension 'ros'
+[1.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extensions ['cmake', 'python']
+[1.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extension 'cmake'
+[1.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extension 'python'
+[1.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extensions ['python_setup_py']
+[1.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)) by extension 'python_setup_py'
+[1.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[1.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extension 'ignore'
+[1.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extension 'ignore_ament_install'
+[1.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extensions ['colcon_pkg']
+[1.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extension 'colcon_pkg'
+[1.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extensions ['colcon_meta']
+[1.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extension 'colcon_meta'
+[1.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extensions ['ros']
+[1.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli) by extension 'ros'
+[1.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'[0m
+[1.263s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[1.263s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[1.263s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[1.263s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[1.263s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[1.320s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'cmake_args' from command line to 'None'
+[1.320s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'cmake_target' from command line to 'None'
+[1.320s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.320s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.320s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.320s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.321s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.321s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_package_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\build\\my_package_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\install', 'merge_install': True, 'path': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\src\\ros_tutorials\\Creating your first ROS 2 package\\C++\\my_package_cpp', 'symlink_install': False, 'test_result_base': None}[0m
+[1.340s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'cmake_args' from command line to 'None'
+[1.340s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'cmake_target' from command line to 'None'
+[1.340s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.340s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'cmake_clean_cache' from command line to 'False'
+[1.341s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'cmake_clean_first' from command line to 'False'
+[1.341s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'cmake_force_configure' from command line to 'False'
+[1.341s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'ament_cmake_args' from command line to 'None'
+[1.341s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'catkin_cmake_args' from command line to 'None'
+[1.341s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.341s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_package_python' with the following arguments: {'ament_cmake_args': None, 'build_base': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\build\\my_package_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\install', 'merge_install': True, 'path': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\src\\ros_tutorials\\Creating your first ROS 2 package\\Python\\my_package_py', 'symlink_install': False, 'test_result_base': None}[0m
+[1.360s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[1.360s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[1.360s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.360s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[1.361s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[1.361s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[1.361s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[1.361s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[1.361s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.361s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\build\\py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\install', 'merge_install': True, 'path': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\src\\ros_tutorials\\Writing a simple publisher and subscriber (Python)\\py_pubsub', 'symlink_install': False, 'test_result_base': None}[0m
+[1.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.381s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\build\\py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\install', 'merge_install': True, 'path': 'H:\\MyProgram\\C and C++\\ROS\\dev_ws\\src\\ros_tutorials\\Writing a simple service and client (Python)\\py_srvcli', 'symlink_install': False, 'test_result_base': None}[0m
+[1.386s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[1.422s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[1.423s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp' with build type 'ament_cmake'
+[1.435s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[1.435s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp'
+[1.445s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.533s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py' with build type 'ament_python'
+[1.533s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package_python', 'ament_prefix_path')
+[1.544s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\ament_prefix_path.ps1'
+[1.546s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\ament_prefix_path.bat'
+[1.548s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\ament_prefix_path.dsv'
+[1.560s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.639s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub' with build type 'ament_python'
+[1.640s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_pubsub', 'ament_prefix_path')
+[1.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\ament_prefix_path.ps1'
+[1.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\ament_prefix_path.bat'
+[1.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\ament_prefix_path.dsv'
+[1.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.744s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli' with build type 'ament_python'
+[1.745s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_srvcli', 'ament_prefix_path')
+[1.755s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\ament_prefix_path.ps1'
+[1.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\ament_prefix_path.bat'
+[1.758s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\ament_prefix_path.dsv'
+[1.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.857s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install -G Visual Studio 16 2019[0m
+[2.645s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py'
+[2.654s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.535s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub'
+[3.545s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.412s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli'
+[4.422s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.510s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log --single-version-externally-managed[0m
+[4.519s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_pubsub build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_pubsub\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\py_pubsub\install.log --single-version-externally-managed[0m
+[4.554s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\install.log --single-version-externally-managed[0m
+[5.634s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py' returned '0': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log --single-version-externally-managed[0m
+[5.657s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install' for CMake module files
+[5.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install' for CMake config files
+[5.666s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package_python', 'cmake_prefix_path')
+[5.676s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\cmake_prefix_path.ps1'
+[5.678s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\cmake_prefix_path.bat'
+[5.680s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\cmake_prefix_path.dsv'
+[5.682s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\bin'
+[5.682s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\bin'
+[5.682s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\Scripts'
+[5.683s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\lib\pkgconfig\my_package_python.pc'
+[5.683s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages'
+[5.683s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package_python', 'pythonpath')
+[5.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\pythonpath.ps1'
+[5.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\pythonpath.bat'
+[5.697s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\hook\pythonpath.dsv'
+[5.698s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_package_python)
+[5.717s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\package.ps1'
+[5.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\package.bat'
+[5.721s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\my_package_python\package.dsv'
+[5.723s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(H:\MyProgram\C and C++\ROS\dev_ws\install\share\colcon-core\packages\my_package_python)
+[5.741s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install' for CMake module files
+[5.743s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli' returned '0': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\install.log --single-version-externally-managed[0m
+[5.745s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install' for CMake config files
+[5.752s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_srvcli', 'cmake_prefix_path')
+[5.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\cmake_prefix_path.ps1'
+[5.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\cmake_prefix_path.bat'
+[5.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\cmake_prefix_path.dsv'
+[5.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\bin'
+[5.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\bin'
+[5.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\Scripts'
+[5.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\lib\pkgconfig\py_srvcli.pc'
+[5.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages'
+[5.769s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_srvcli', 'pythonpath')
+[5.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\pythonpath.ps1'
+[5.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\pythonpath.bat'
+[5.783s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\hook\pythonpath.dsv'
+[5.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(py_srvcli)
+[5.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\package.ps1'
+[5.797s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\package.bat'
+[5.798s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_srvcli\package.dsv'
+[5.800s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(H:\MyProgram\C and C++\ROS\dev_ws\install\share\colcon-core\packages\py_srvcli)
+[5.816s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install' for CMake module files
+[5.819s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple publisher and subscriber (Python)\py_pubsub' returned '0': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_pubsub build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_pubsub\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\py_pubsub\install.log --single-version-externally-managed[0m
+[5.821s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install' for CMake config files
+[5.828s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_pubsub', 'cmake_prefix_path')
+[5.837s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\cmake_prefix_path.ps1'
+[5.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\cmake_prefix_path.bat'
+[5.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\cmake_prefix_path.dsv'
+[5.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\bin'
+[5.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\bin'
+[5.843s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\Scripts'
+[5.843s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\lib\pkgconfig\py_pubsub.pc'
+[5.843s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking 'H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages'
+[5.843s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('py_pubsub', 'pythonpath')
+[5.853s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\pythonpath.ps1'
+[5.854s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\pythonpath.bat'
+[5.856s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\hook\pythonpath.dsv'
+[5.857s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(py_pubsub)
+[5.868s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\package.ps1'
+[5.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\package.bat'
+[5.871s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor 'H:\MyProgram\C and C++\ROS\dev_ws\install\share\py_pubsub\package.dsv'
+[5.873s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(H:\MyProgram\C and C++\ROS\dev_ws\install\share\colcon-core\packages\py_pubsub)
+[8.193s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_cpp' returned '1': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\C++\my_package_cpp -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install -G Visual Studio 16 2019[0m
+[8.203s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[8.203s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[8.221s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[8.221s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[8.221s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.221s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'
+[13.286s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[13.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'H:\MyProgram\C and C++\ROS\dev_ws\install\local_setup.ps1'
+[13.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'H:\MyProgram\C and C++\ROS\dev_ws\install\_local_setup_util_ps1.py'
+[13.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'H:\MyProgram\C and C++\ROS\dev_ws\install\setup.ps1'
+[13.318s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script 'H:\MyProgram\C and C++\ROS\dev_ws\install\local_setup.bat'
+[13.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module 'H:\MyProgram\C and C++\ROS\dev_ws\install\_local_setup_util_bat.py'
+[13.322s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script 'H:\MyProgram\C and C++\ROS\dev_ws\install\setup.bat'

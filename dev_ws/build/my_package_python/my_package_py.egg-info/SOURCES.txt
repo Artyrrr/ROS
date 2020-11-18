@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_python/my_package_py.egg-info/PKG-INFO
+H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_python/my_package_py.egg-info/SOURCES.txt
+H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_python/my_package_py.egg-info/dependency_links.txt
+H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_python/my_package_py.egg-info/entry_points.txt
+H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_python/my_package_py.egg-info/requires.txt
+H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_python/my_package_py.egg-info/top_level.txt
+H:/MyProgram/C and C++/ROS/dev_ws/build/my_package_python/my_package_py.egg-info/zip-safe
+my_package_py/__init__.py
+my_package_py/my_node.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

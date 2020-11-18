@@ -1,0 +1,11 @@
+[3.000s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log --single-version-externally-managed
+[3.797s] running egg_info
+[3.797s] creating H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info
+[3.797s] writing H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\PKG-INFO
+[3.797s] writing dependency_links to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\dependency_links.txt
+[3.797s] writing entry points to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\entry_points.txt
+[3.797s] writing requirements to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\requires.txt
+[3.797s] writing top-level names to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\top_level.txt
+[3.797s] writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\SOURCES.txt'
+[3.828s] error: package directory 'my_package_py' does not exist
+[3.859s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating your first ROS 2 package\Python\my_package_py' returned '1': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\install.log --single-version-externally-managed
