@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>tallest_building</name>
+  <version>0.0.0</version>
+  <description>Information about the tallest buildings in the world. At the entrance - a number from 1 to 15. At the exit - the name of the building, country and height (in meters)</description>
+  <maintainer email="Artyrrr08@gmail.com">Arthur Strekozov</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>dictionary_interface</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  <exec_depend>dictionary_interface</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
