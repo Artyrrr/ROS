@@ -1,0 +1,19 @@
+-- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+-- Found ament_cmake: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+-- Found rosidl_default_generators: 1.0.0 (C:/opt/ros/foxy/x64/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.1.0 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_lint_auto: 0.9.5 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+CMake Error at C:/opt/ros/foxy/x64/share/ament_cmake_export_dependencies/cmake/ament_export_dependencies.cmake:29 (message):
+  ament_export_dependencies() must be called before ament_package()
+Call Stack (most recent call first):
+  CMakeLists.txt:58 (ament_export_dependencies)
+
+
+-- Configuring incomplete, errors occurred!
+See also "H:/MyProgram/C and C++/ROS/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,4 @@
+[console_scripts]
+client = tallest_building.client_function:main
+server = tallest_building.service_function:main
+

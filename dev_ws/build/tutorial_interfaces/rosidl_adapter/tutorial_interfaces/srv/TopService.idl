@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv\TopService.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct TopService_Request {
+      int64 a;
+
+      int64 b;
+
+      int64 c;
+    };
+    struct TopService_Response {
+      int64 sum;
+    };
+  };
+};

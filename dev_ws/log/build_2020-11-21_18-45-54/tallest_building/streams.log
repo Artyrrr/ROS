@@ -1,0 +1,19 @@
+[1.063s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\university_tasks\task_2\tallest_building': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\install.log --single-version-externally-managed
+[1.828s] running egg_info
+[1.828s] writing H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\PKG-INFO
+[1.828s] writing dependency_links to H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\dependency_links.txt
+[1.844s] writing entry points to H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\entry_points.txt
+[1.844s] writing requirements to H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\requires.txt
+[1.844s] writing top-level names to H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\top_level.txt
+[1.875s] reading manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\SOURCES.txt'
+[1.875s] writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\SOURCES.txt'
+[1.875s] running build
+[1.875s] running build_py
+[1.875s] running install
+[1.875s] running install_lib
+[1.891s] writing byte-compilation script 'C:\Users\artyr\AppData\Local\Temp\tmpv98latu9.py'
+[1.891s] c:\opt\ros\foxy\x64\python.exe C:\Users\artyr\AppData\Local\Temp\tmpv98latu9.py
+[1.953s]   File "C:\Users\artyr\AppData\Local\Temp\tmpv98latu9.py", line 3
+[1.953s] SyntaxError: Non-UTF-8 code starting with '\x97' in file C:\Users\artyr\AppData\Local\Temp\tmpv98latu9.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+[1.953s] error: command 'c:\\opt\\ros\\foxy\\x64\\python.exe' failed with exit status 1
+[1.984s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\university_tasks\task_2\tallest_building' returned '1': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\install.log --single-version-externally-managed

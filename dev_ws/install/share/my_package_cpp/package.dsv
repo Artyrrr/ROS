@@ -1,6 +1,12 @@
 source;share\my_package_cpp\hook\cmake_prefix_path.ps1
 source;share\my_package_cpp\hook\cmake_prefix_path.bat
 source;share\my_package_cpp\hook\cmake_prefix_path.dsv
+source;share\my_package_cpp\hook\path_dll.ps1
+source;share\my_package_cpp\hook\path_dll.bat
+source;share\my_package_cpp\hook\path_dll.dsv
+source;share\my_package_cpp\hook\path.ps1
+source;share\my_package_cpp\hook\path.bat
+source;share\my_package_cpp\hook\path.dsv
 source;share\my_package_cpp\hook\pythonpath.ps1
 source;share\my_package_cpp\hook\pythonpath.bat
 source;share\my_package_cpp\hook\pythonpath.dsv

@@ -1,0 +1,2 @@
+Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_buildings': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\university_tasks\task_2\tallest_buildings -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install
+Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_buildings' returned '1': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\university_tasks\task_2\tallest_buildings -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install

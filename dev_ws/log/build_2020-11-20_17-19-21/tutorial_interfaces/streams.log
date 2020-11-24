@@ -1,0 +1,9 @@
+[0.140s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install
+[0.281s] -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+[0.328s] CMake Error at CMakeLists.txt:20 (ament_export_dependencies):
+[0.328s]   Unknown CMake command "ament_export_dependencies".
+[0.328s] 
+[0.328s] 
+[0.328s] -- Configuring incomplete, errors occurred!
+[0.328s] See also "H:/MyProgram/C and C++/ROS/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.344s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces' returned '1': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install

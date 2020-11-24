@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\msg\detail\num__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\srv\detail\add_three_ints__functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\msg\num.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\msg\detail\num__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\msg\detail\num__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\msg\detail\num__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\srv\add_three_ints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\srv\detail\add_three_ints__functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\srv\detail\add_three_ints__struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_generator_c\tutorial_interfaces\srv\detail\add_three_ints__type_support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\CMakeFiles\1361369c585c53387b2554ecd3a3ec85\num.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\tutorial_interfaces\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EB0C8DE9-EEB9-3AF3-8188-9BDEAA4817E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0EB39808-98FE-33CD-942E-56B467EED9FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{63B493ED-D12B-3F05-8F76-34C8D53EA5D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

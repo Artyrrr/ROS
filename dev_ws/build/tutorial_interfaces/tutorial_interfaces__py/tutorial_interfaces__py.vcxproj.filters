@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\CMakeFiles\c1a0e26583207a865ab1a42a26ca40f6\_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\CMakeFiles\bd3af8e6030d7521110204f9a877e3a4\tutorial_interfaces__py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\tutorial_interfaces__py\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\tutorial_interfaces__py\CMakeFiles\tutorial_interfaces__py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EB0C8DE9-EEB9-3AF3-8188-9BDEAA4817E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

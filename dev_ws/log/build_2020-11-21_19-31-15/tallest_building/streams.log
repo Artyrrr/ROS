@@ -1,0 +1,29 @@
+[0.906s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\university_tasks\task_2\tallest_building': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\install.log --single-version-externally-managed
+[1.687s] running egg_info
+[1.687s] writing H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\PKG-INFO
+[1.687s] writing dependency_links to H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\dependency_links.txt
+[1.687s] writing entry points to H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\entry_points.txt
+[1.687s] writing requirements to H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\requires.txt
+[1.687s] writing top-level names to H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\top_level.txt
+[1.718s] reading manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\SOURCES.txt'
+[1.734s] writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info\SOURCES.txt'
+[1.734s] running build
+[1.734s] running build_py
+[1.734s] copying tallest_building\service_function.py -> H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\build\lib\tallest_building
+[1.734s] running install
+[1.734s] running install_lib
+[1.734s] copying H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\build\lib\tallest_building\service_function.py -> H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\tallest_building
+[1.734s] writing byte-compilation script 'C:\Users\artyr\AppData\Local\Temp\tmpaf8yhlyb.py'
+[1.734s] c:\opt\ros\foxy\x64\python.exe C:\Users\artyr\AppData\Local\Temp\tmpaf8yhlyb.py
+[1.843s] removing C:\Users\artyr\AppData\Local\Temp\tmpaf8yhlyb.py
+[1.843s] running install_data
+[1.843s] running install_egg_info
+[1.859s] removing 'H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\tallest_building-0.0.0-py3.8.egg-info' (and everything under it)
+[1.859s] Copying H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\tallest_building.egg-info to H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\tallest_building-0.0.0-py3.8.egg-info
+[1.875s] running install_scripts
+[1.906s] Installing client-script.py script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\tallest_building
+[1.906s] Installing client.exe script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\tallest_building
+[1.906s] Installing service-script.py script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\tallest_building
+[1.906s] Installing service.exe script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\tallest_building
+[1.906s] writing list of installed files to 'H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\install.log'
+[1.937s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\university_tasks\task_2\tallest_building' returned '0': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\tallest_building\install.log --single-version-externally-managed

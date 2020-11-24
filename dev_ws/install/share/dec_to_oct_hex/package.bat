@@ -6,6 +6,8 @@
 for %%p in ("%~dp0..\..") do set "COLCON_CURRENT_PREFIX=%%~fp"
 
 call:call_file "%%COLCON_CURRENT_PREFIX%%\share\dec_to_oct_hex\hook\cmake_prefix_path.bat"
+call:call_file "%%COLCON_CURRENT_PREFIX%%\share\dec_to_oct_hex\hook\path_dll.bat"
+call:call_file "%%COLCON_CURRENT_PREFIX%%\share\dec_to_oct_hex\hook\path.bat"
 call:call_file "%%COLCON_CURRENT_PREFIX%%\share\dec_to_oct_hex\hook\pythonpath.bat"
 call:call_file "%%COLCON_CURRENT_PREFIX%%\share\dec_to_oct_hex\hook\ament_prefix_path.bat"
 

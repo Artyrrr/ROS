@@ -1,0 +1,57 @@
+[1.156s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\dictionary_interface -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install
+[2.109s] -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+[2.109s] -- Found ament_cmake: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[2.109s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[2.109s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[2.718s] -- Found rosidl_default_generators: 1.0.0 (C:/opt/ros/foxy/x64/share/rosidl_default_generators/cmake)
+[2.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.781s] -- Found rosidl_adapter: 1.1.0 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[3.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.875s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found version "3.8.3") 
+[4.875s] -- Found ament_cmake_ros: 0.9.0 (C:/opt/ros/foxy/x64/share/ament_cmake_ros/cmake)
+[5.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.781s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.781s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3.5") 
+[5.781s] -- Found python_cmake_module: 0.8.0 (C:/opt/ros/foxy/x64/share/python_cmake_module/cmake)
+[5.781s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[5.781s] -- Using PYTHON_INCLUDE_DIRS: C:/opt/ros/foxy/x64/include/python3.8
+[5.781s] -- Using PYTHON_LIBRARIES: C:/opt/ros/foxy/x64/Lib/python38.lib
+[6.078s] -- Using numpy include directory: C:\opt\ros\foxy\x64\lib\site-packages\numpy\core\include
+[6.093s] -- Found ament_lint_auto: 0.9.5 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[6.281s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.297s] -- Added test 'lint_cmake' to check CMake code style
+[6.312s] -- Added test 'xmllint' to check XML markup files
+[6.453s] -- Configuring done
+[8.484s] -- Generating done
+[8.484s] -- Build files have been written to: H:/MyProgram/C and C++/ROS/dev_ws/build/dictionary_interface
+[8.484s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\dictionary_interface -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install
+[8.484s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface --config Release
+[8.718s] Microsoft (R) Build Engine версии 16.7.0+b89cb5fde для .NET Framework
+[8.718s] (C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+[8.718s] 
+[9.297s]   Checking Build System
+[9.703s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[9.922s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[10.109s]   dictionary_interface__rosidl_generator_c.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\Release\dictionary_interface__rosidl_generator_c.dll
+[10.250s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[10.390s]   dictionary_interface__rosidl_typesupport_c.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\Release\dictionary_interface__rosidl_typesupport_c.dll
+[10.562s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[10.672s]   dictionary_interface__rosidl_typesupport_cpp.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\Release\dictionary_interface__rosidl_typesupport_cpp.dll
+[10.859s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[11.015s]   dictionary_interface__rosidl_typesupport_fastrtps_cpp.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\Release\dictionary_interface__rosidl_typesupport_fastrtps_cpp.dll
+[11.125s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[11.234s]   dictionary_interface__rosidl_typesupport_fastrtps_c.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\Release\dictionary_interface__rosidl_typesupport_fastrtps_c.dll
+[11.390s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[11.500s]   dictionary_interface__rosidl_typesupport_introspection_c.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\Release\dictionary_interface__rosidl_typesupport_introspection_c.dll
+[11.718s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[11.859s]   dictionary_interface__rosidl_typesupport_introspection_cpp.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\Release\dictionary_interface__rosidl_typesupport_introspection_cpp.dll
+[12.031s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[12.390s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[12.547s]   dictionary_interface__python.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\rosidl_generator_py\dictionary_interface\dictionary_interface__python.dll
+[12.703s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[12.828s]   dictionary_interface__rosidl_typesupport_c__pyext.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\rosidl_generator_py\dictionary_interface\dictionary_interface_s__rosidl_typesupport_c.pyd
+[12.984s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[13.125s]   dictionary_interface__rosidl_typesupport_fastrtps_c__pyext.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\rosidl_generator_py\dictionary_interface\dictionary_interface_s__rosidl_typesupport_fastrtps_c.pyd
+[13.312s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt
+[13.422s]   dictionary_interface__rosidl_typesupport_introspection_c__pyext.vcxproj -> H:\MyProgram\C and C++\ROS\dev_ws\build\dictionary_interface\rosidl_generator_py\dictionary_interface\dictionary_interface_s__rosidl_typesupport_introspection_c.pyd
+[13.515s]   Building Custom Rule H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/dictionary_interface/CMakeLists.txt

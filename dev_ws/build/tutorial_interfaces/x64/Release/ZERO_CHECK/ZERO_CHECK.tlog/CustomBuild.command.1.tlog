@@ -1,0 +1,10 @@
+^H:\MYPROGRAM\C AND C++\ROS\DEV_WS\BUILD\TUTORIAL_INTERFACES\CMAKEFILES\7CDE8D57E32F476A1E3FC0B3B782BB87\GENERATE.STAMP.RULE
+setlocal
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe "-SH:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/tutorial_interfaces" "-BH:/MyProgram/C and C++/ROS/dev_ws/build/tutorial_interfaces" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "H:/MyProgram/C and C++/ROS/dev_ws/build/tutorial_interfaces/tutorial_interfaces.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

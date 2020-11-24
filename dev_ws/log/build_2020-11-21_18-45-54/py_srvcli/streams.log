@@ -1,0 +1,31 @@
+[1.969s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\install.log --single-version-externally-managed
+[2.766s] running egg_info
+[2.766s] writing H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\py_srvcli.egg-info\PKG-INFO
+[2.766s] writing dependency_links to H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\py_srvcli.egg-info\dependency_links.txt
+[2.782s] writing entry points to H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\py_srvcli.egg-info\entry_points.txt
+[2.782s] writing requirements to H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\py_srvcli.egg-info\requires.txt
+[2.782s] writing top-level names to H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\py_srvcli.egg-info\top_level.txt
+[2.813s] reading manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\py_srvcli.egg-info\SOURCES.txt'
+[2.829s] writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\py_srvcli.egg-info\SOURCES.txt'
+[2.829s] running build
+[2.829s] running build_py
+[2.829s] copying py_srvcli\client_member_function.py -> H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\build\lib\py_srvcli
+[2.875s] copying py_srvcli\service_member_function.py -> H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\build\lib\py_srvcli
+[2.891s] running install
+[2.891s] running install_lib
+[2.907s] copying H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\build\lib\py_srvcli\client_member_function.py -> H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\py_srvcli
+[2.907s] copying H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\build\lib\py_srvcli\service_member_function.py -> H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\py_srvcli
+[2.907s] writing byte-compilation script 'C:\Users\artyr\AppData\Local\Temp\tmpbad9fcg0.py'
+[2.907s] c:\opt\ros\foxy\x64\python.exe C:\Users\artyr\AppData\Local\Temp\tmpbad9fcg0.py
+[3.172s] removing C:\Users\artyr\AppData\Local\Temp\tmpbad9fcg0.py
+[3.172s] running install_data
+[3.188s] running install_egg_info
+[3.188s] removing 'H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[3.188s] Copying H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\py_srvcli.egg-info to H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\py_srvcli-0.0.0-py3.8.egg-info
+[3.188s] running install_scripts
+[3.188s] Installing client-script.py script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\py_srvcli
+[3.188s] Installing client.exe script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\py_srvcli
+[3.188s] Installing service-script.py script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\py_srvcli
+[3.188s] Installing service.exe script to H:\MyProgram\C and C++\ROS\dev_ws\install\lib\py_srvcli
+[3.188s] writing list of installed files to 'H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\install.log'
+[3.360s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Writing a simple service and client (Python)\py_srvcli' returned '0': PYTHONPATH=H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages;%PYTHONPATH% c:\opt\ros\foxy\x64\python.exe setup.py egg_info --egg-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli build --build-base H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\build install --prefix H:\MyProgram\C and C++\ROS\dev_ws\install --record H:\MyProgram\C and C++\ROS\dev_ws\build\py_srvcli\install.log --single-version-externally-managed

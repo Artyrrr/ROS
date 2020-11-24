@@ -1,0 +1,12 @@
+source;share\tallest_building\hook\cmake_prefix_path.ps1
+source;share\tallest_building\hook\cmake_prefix_path.bat
+source;share\tallest_building\hook\cmake_prefix_path.dsv
+source;share\tallest_building\hook\path_dll.ps1
+source;share\tallest_building\hook\path_dll.bat
+source;share\tallest_building\hook\path_dll.dsv
+source;share\tallest_building\hook\path.ps1
+source;share\tallest_building\hook\path.bat
+source;share\tallest_building\hook\path.dsv
+source;share\tallest_building\hook\pythonpath.ps1
+source;share\tallest_building\hook\pythonpath.bat
+source;share\tallest_building\hook\pythonpath.dsv

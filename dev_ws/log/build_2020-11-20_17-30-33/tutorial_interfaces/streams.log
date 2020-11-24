@@ -1,0 +1,21 @@
+[0.157s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install
+[0.282s] -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+[0.313s] -- Found ament_cmake: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.391s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[0.391s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[1.032s] -- Found rosidl_default_generators: 1.0.0 (C:/opt/ros/foxy/x64/share/rosidl_default_generators/cmake)
+[1.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.063s] -- Found rosidl_adapter: 1.1.0 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[1.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.547s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found version "3.8.3") 
+[1.829s] CMake Error at C:/opt/ros/foxy/x64/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.829s]   Packages installing interfaces must include
+[1.829s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.829s]   package.xml
+[1.829s] Call Stack (most recent call first):
+[1.829s]   CMakeLists.txt:41 (rosidl_generate_interfaces)
+[1.829s] 
+[1.829s] 
+[1.829s] -- Configuring incomplete, errors occurred!
+[1.829s] See also "H:/MyProgram/C and C++/ROS/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.860s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces' returned '1': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_typesupport_introspection_cpp\tutorial_interfaces\msg\detail\num__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_typesupport_introspection_cpp\tutorial_interfaces\srv\detail\add_three_ints__type_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_typesupport_introspection_cpp\tutorial_interfaces\msg\detail\num__rosidl_typesupport_introspection_cpp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\rosidl_typesupport_introspection_cpp\tutorial_interfaces\srv\detail\add_three_ints__rosidl_typesupport_introspection_cpp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces\CMakeFiles\89ec7dcc69f3c2f0dbba025ce0ea8b80\num__rosidl_typesupport_introspection_cpp.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\tutorial_interfaces\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EB0C8DE9-EEB9-3AF3-8188-9BDEAA4817E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0EB39808-98FE-33CD-942E-56B467EED9FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{63B493ED-D12B-3F05-8F76-34C8D53EA5D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

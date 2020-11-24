@@ -1,0 +1,35 @@
+[0.188s] Invoking command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install -G Visual Studio 16 2019
+[0.469s] -- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+[6.719s] -- The C compiler identification is MSVC 19.27.29112.0
+[8.063s] -- The CXX compiler identification is MSVC 19.27.29112.0
+[8.156s] -- Detecting C compiler ABI info
+[9.297s] -- Detecting C compiler ABI info - done
+[9.297s] -- Check for working C compiler: D:/Programs/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe - skipped
+[9.297s] -- Detecting C compile features
+[9.297s] -- Detecting C compile features - done
+[9.328s] -- Detecting CXX compiler ABI info
+[10.313s] -- Detecting CXX compiler ABI info - done
+[10.313s] -- Check for working CXX compiler: D:/Programs/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe - skipped
+[10.313s] -- Detecting CXX compile features
+[10.313s] -- Detecting CXX compile features - done
+[10.469s] -- Found ament_cmake: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[10.672s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found suitable version "3.8.3", minimum required is "3") 
+[10.672s] -- Using PYTHON_EXECUTABLE: C:/opt/ros/foxy/x64/python.exe
+[11.656s] -- Found rosidl_default_generators: 1.0.0 (C:/opt/ros/foxy/x64/share/rosidl_default_generators/cmake)
+[11.734s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.813s] -- Found rosidl_adapter: 1.1.0 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[12.063s] -- Found OpenSSL: optimized;C:/opt/ros/foxy/x64/Lib/libcrypto.lib;debug;C:/Program Files/OpenSSL-Win64/lib/VC/libcrypto64MDd.lib (found version "1.1.1g")  
+[12.922s] -- Found FastRTPS: C:/opt/ros/foxy/x64/include  
+[13.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.531s] -- Found PythonInterp: C:/opt/ros/foxy/x64/python.exe (found version "3.8.3") 
+[13.844s] CMake Error at C:/opt/ros/foxy/x64/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[13.844s]   Packages installing interfaces must include
+[13.844s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[13.844s]   package.xml
+[13.844s] Call Stack (most recent call first):
+[13.844s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[13.844s] 
+[13.844s] 
+[13.844s] -- Configuring incomplete, errors occurred!
+[13.844s] See also "H:/MyProgram/C and C++/ROS/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[13.875s] Invoked command in 'H:\MyProgram\C and C++\ROS\dev_ws\build\tutorial_interfaces' returned '1': C:\opt\ros\foxy\x64\Scripts\cmake.EXE H:\MyProgram\C and C++\ROS\dev_ws\src\ros_tutorials\Creating custom ROS 2 msg and srv files\tutorial_interfaces -DCMAKE_INSTALL_PREFIX=H:\MyProgram\C and C++\ROS\dev_ws\install -G Visual Studio 16 2019

@@ -1,6 +1,12 @@
 source;share\py_srvcli\hook\cmake_prefix_path.ps1
 source;share\py_srvcli\hook\cmake_prefix_path.bat
 source;share\py_srvcli\hook\cmake_prefix_path.dsv
+source;share\py_srvcli\hook\path_dll.ps1
+source;share\py_srvcli\hook\path_dll.bat
+source;share\py_srvcli\hook\path_dll.dsv
+source;share\py_srvcli\hook\path.ps1
+source;share\py_srvcli\hook\path.bat
+source;share\py_srvcli\hook\path.dsv
 source;share\py_srvcli\hook\pythonpath.ps1
 source;share\py_srvcli\hook\pythonpath.bat
 source;share\py_srvcli\hook\pythonpath.dsv

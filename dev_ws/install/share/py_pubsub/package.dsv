@@ -1,6 +1,12 @@
 source;share\py_pubsub\hook\cmake_prefix_path.ps1
 source;share\py_pubsub\hook\cmake_prefix_path.bat
 source;share\py_pubsub\hook\cmake_prefix_path.dsv
+source;share\py_pubsub\hook\path_dll.ps1
+source;share\py_pubsub\hook\path_dll.bat
+source;share\py_pubsub\hook\path_dll.dsv
+source;share\py_pubsub\hook\path.ps1
+source;share\py_pubsub\hook\path.bat
+source;share\py_pubsub\hook\path.dsv
 source;share\py_pubsub\hook\pythonpath.ps1
 source;share\py_pubsub\hook\pythonpath.bat
 source;share\py_pubsub\hook\pythonpath.dsv

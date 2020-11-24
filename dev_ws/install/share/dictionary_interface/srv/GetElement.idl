@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dictionary_interface/srv\GetElement.srv
+// generated code does not contain a copyright notice
+
+
+module dictionary_interface {
+  module srv {
+    struct GetElement_Request {
+      uint8 n;
+    };
+    struct GetElement_Response {
+      string elm;
+    };
+  };
+};
