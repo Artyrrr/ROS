@@ -1,8 +1,0 @@
-running egg_info
-creating H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info
-writing H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\PKG-INFO
-writing dependency_links to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\dependency_links.txt
-writing entry points to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\entry_points.txt
-writing requirements to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\requires.txt
-writing top-level names to H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\top_level.txt
-writing manifest file 'H:\MyProgram\C and C++\ROS\dev_ws\build\my_package_python\my_package_py.egg-info\SOURCES.txt'

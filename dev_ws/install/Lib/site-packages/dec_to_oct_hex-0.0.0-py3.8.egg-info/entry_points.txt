@@ -1,4 +1,0 @@
-[console_scripts]
-listener = dec_to_oct_hex.subscriber:main
-talker = dec_to_oct_hex.publisher:main
-

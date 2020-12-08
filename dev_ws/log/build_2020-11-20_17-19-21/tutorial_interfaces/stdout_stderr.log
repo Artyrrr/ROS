@@ -1,7 +1,0 @@
--- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
-CMake Error at CMakeLists.txt:20 (ament_export_dependencies):
-  Unknown CMake command "ament_export_dependencies".
-
-
--- Configuring incomplete, errors occurred!
-See also "H:/MyProgram/C and C++/ROS/dev_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".

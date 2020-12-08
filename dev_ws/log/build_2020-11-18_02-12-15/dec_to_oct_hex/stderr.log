@@ -1,5 +1,0 @@
-  File "H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\dec_to_oct_hex\subscriber.py", line 22
-    self.get_logger().info('0x8: "%o"' % msg.data '0x16: "%x"' % msg.data)
-                                                  ^
-SyntaxError: invalid syntax
-

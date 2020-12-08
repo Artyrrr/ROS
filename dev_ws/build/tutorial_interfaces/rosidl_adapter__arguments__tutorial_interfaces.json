@@ -1,7 +1,0 @@
-{
-  "package_name": "tutorial_interfaces",
-  "non_idl_tuples": [
-    "H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/tutorial_interfaces:msg/Num.msg",
-    "H:/MyProgram/C and C++/ROS/dev_ws/src/ros_tutorials/Creating custom ROS 2 msg and srv files/tutorial_interfaces:srv/AddThreeInts.srv"
-  ]
-}

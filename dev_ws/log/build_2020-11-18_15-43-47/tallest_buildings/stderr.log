@@ -1,5 +1,0 @@
-  File "H:\MyProgram\C and C++\ROS\dev_ws\install\Lib\site-packages\tallest_buildings\client.py", line 41
-    minimal_client.destroy_node()
-    ^
-SyntaxError: invalid syntax
-

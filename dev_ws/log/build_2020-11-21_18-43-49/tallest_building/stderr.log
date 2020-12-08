@@ -1,3 +1,0 @@
-  File "C:\Users\artyr\AppData\Local\Temp\tmpgxtwy0l4.py", line 3
-SyntaxError: Non-UTF-8 code starting with '\x97' in file C:\Users\artyr\AppData\Local\Temp\tmpgxtwy0l4.py on line 3, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
-error: command 'c:\\opt\\ros\\foxy\\x64\\python.exe' failed with exit status 1
